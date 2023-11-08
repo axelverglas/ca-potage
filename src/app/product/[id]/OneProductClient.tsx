@@ -34,7 +34,7 @@ export default function ProductClient({
 
   const Map = useMemo(
     () =>
-      dynamic(() => import("@/app/components/Map"), {
+      dynamic(() => import("@/components/Map"), {
         ssr: false,
       }),
     []

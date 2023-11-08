@@ -102,7 +102,7 @@ export default function Product() {
 
   const Map = useMemo(
     () =>
-      dynamic(() => import("../../components/Map"), {
+      dynamic(() => import("@/components/Map"), {
         ssr: false,
       }),
     [location]
