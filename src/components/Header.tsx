@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import { FiMenu, FiX } from "react-icons/fi";
 import { MdOutlineAddBox } from "react-icons/md";
 import Logo from "./Logo";
-import useLoginModal from "../hooks/useLoginModal";
+import useLoginModal from "@/hooks/useLoginModal";
 import { User } from "@prisma/client";
 import MobileMenu from "./MobileMenu";
 import Button from "./Button";

@@ -3,7 +3,6 @@ import Heading from "./Heading";
 import { Product, User } from "@prisma/client";
 import Link from "next/link";
 import { BsTrash } from "react-icons/bs";
-import { useRouter } from "next/navigation";
 import toast from "react-hot-toast";
 import { useTransition } from "react";
 import { action } from "../actions/deleteProduct";

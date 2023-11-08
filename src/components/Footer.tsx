@@ -1,6 +1,5 @@
 import Link from "next/link";
 import Logo from "./Logo";
-import { siteConfig } from "../config/siteconfig";
 
 export default function Footer() {
   const year = new Date().getFullYear();

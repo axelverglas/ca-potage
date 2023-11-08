@@ -10,7 +10,7 @@ import {
   calculateDistance,
   getCurrentLocation,
   Coordinates,
-} from "@/app/actions/geoUtils";
+} from "@/actions/geoUtils";
 import { useEffect } from "react";
 import { FiFilter } from "react-icons/fi";
 import Heading from "../Heading";

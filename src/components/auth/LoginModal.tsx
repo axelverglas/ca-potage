@@ -7,9 +7,9 @@ import { signIn } from "next-auth/react";
 import { useRouter } from "next/navigation";
 import { toast } from "react-hot-toast";
 import useLoginModal from "@/hooks/useLoginModal";
-import Input from "@/app/components/Input/Input";
-import Button from "@/app/components/Button";
-import Modal from "@/app/components/Modal";
+import Input from "@/components/Input/Input";
+import Button from "@/components/Button";
+import Modal from "@/components/Modal";
 import { useCallback } from "react";
 import useRegisterModal from "@/hooks/useRegisterModal";
 
